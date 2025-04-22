@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .carousel-inner img {
+                height: 50vh;
+    
+                object-fit: cover;
+                
+            }
+            .card {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.card-body {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ #about {
+    background-color: #ffe6ea;
+  }
+        </style>
+
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+        
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" alt="Bootstrap" width="30" height="24">
+        </a>
+
+        <ul class="nav justify-content-end">
+        
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#prod">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+        </ul>
+        </div>
+        
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<br>
+<div id="prod">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd1.png" class="card-img-top" alt="crd1">
+                <div class="card-body">
+                    <h5 class="card-title">Foaming Cleanser</h5>
+                    <p class="card-text">Gently removes dirt, oil, and impurities without drying the skin.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd2.png" class="card-img-top" alt="ced2">
+                <div class="card-body">
+                    <h5 class="card-title">Micellar Water</h5>
+                    <p class="card-text">A no-rinse cleansing solution that effectively removes makeup and refreshes skin.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd3.png" class="card-img-top" alt="crd3">
+                <div class="card-body">
+                    <h5 class="card-title">Scrub</h5>
+                    <p class="card-text">Sloughs off dead skin cells for smoother, brighter skin.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd4.png" class="card-img-top" alt="crd4">
+                <div class="card-body">
+                    <h5 class="card-title">Hydrating Toner </h5>
+                    <p class="card-text">Balances skin pH and boosts hydration after cleansing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd5.png" class="card-img-top" alt="crd5">
+                <div class="card-body">
+                    <h5 class="card-title">Vitamin C Serum</h5>
+                    <p class="card-text">Brightens skin tone and reduces dark spots with antioxidant power.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd6.png" class="card-img-top" alt="crd6">
+                <div class="card-body">
+                    <h5 class="card-title">Hyaluronic Acid Serum</h5>
+                    <p class="card-text">Deeply hydrates and plumps the skin for a youthful glow.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd7.png" class="card-img-top" alt="crd7">
+                <div class="card-body">
+                    <h5 class="card-title">Retinol Cream</h5>
+                    <p class="card-text">Reduces fine lines, wrinkles, and acne over time.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd8.png" class="card-img-top" alt="crd8">
+                <div class="card-body">
+                    <h5 class="card-title">Moisturizing Gel</h5>
+                    <p class="card-text">Lightweight hydration that locks in moisture all day.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd9.png" class="card-img-top" alt="crd9">
+                <div class="card-body">
+                    <h5 class="card-title">SPF 50 Sunscreen</h5>
+                    <p class="card-text">Shields the skin from harmful UVA/UVB rays and prevents sun damage.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd10.png" class="card-img-top" alt="crd10">
+                <div class="card-body">
+                    <h5 class="card-title">Clay Face Mask</h5>
+                    <p class="card-text">Detoxifies pores and controls excess oil for clearer skin.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd11.png" class="card-img-top" alt="crd11">
+                <div class="card-body">
+                    <h5 class="card-title">Under Eye Cream</h5>
+                    <p class="card-text">Minimizes puffiness, dark circles, and fine lines under the eyes.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="crd12.png" class="card-img-top" alt="crd12">
+                <div class="card-body">
+                    <h5 class="card-title">Night Repair Cream</h5>
+                    <p class="card-text">Nourishes and restores skin while you sleep for a fresh morning glow.</p>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+</div>
+</div>
+
+<div class="text-center pt-3 border-top border-secondary" id="about">
+    <small>&copy; 2025 FlavourNest. All rights reserved.</small>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
