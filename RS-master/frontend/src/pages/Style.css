@@ -1,0 +1,34 @@
+.img-custom {
+    height: 60vh;
+    object-fit: cover;
+}
+
+.feature-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.feature-img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.feature-text {
+    padding: 20px;
+}
+
+.custom-round-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-adjust {
+    padding-left: 70px;
+}
